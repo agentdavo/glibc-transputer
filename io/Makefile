@@ -44,7 +44,9 @@ routines :=								      \
 	ftw poll
 routines	:= $(sort $(foreach f,$(routines),$f $(f:__%=%)))
 
-others		:= pwd
-tests		:= test-utime
+#others		:= pwd
+#tests		:= test-utime
+others		:= 
+tests		:= 
 
 include ../Rules

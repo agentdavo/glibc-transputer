@@ -94,7 +94,8 @@ $(objpfx)munch-init.c: munch.awk munch-tmpl.c $(+subdir_inits)
 generated := $(generated) munch-init.c
 endif
 
-aux	:= sysdep $(+init) version start
+#aux	:= sysdep $(+init) version start
+aux	:= sysdep $(+init) start
 
 
 # What to install.

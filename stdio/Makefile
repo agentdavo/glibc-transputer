@@ -29,7 +29,7 @@ routines	:=							      \
 	newstream fopen freopen fdopen fopncook fmemopen		      \
 	setbuf setvbuf setbuffer setlinebuf				      \
 	fseek ftell rewind fgetpos fsetpos				      \
-	vfprintf vprintf printf_fp reg-printf printf-prs _itoa		      \
+	vfprintf vprintf reg-printf printf-prs _itoa		      \
 	vsnprintf vsprintf vasprintf	      				      \
 	fprintf printf snprintf sprintf asprintf			      \
 	dprintf vdprintf						      \
